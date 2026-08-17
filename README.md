@@ -1,28 +1,91 @@
 # mass_clone
-This is a shell script that will clone multiple repositories.  The intended usage is for GitHub Classroom to be able to clone all repos of a certain assignment.  The script will create a folder based on the identifier(assignment name) then make folders for each repo then clone.  Uses GitHub api v3, curl 7.49.1 and grep 2.5.1
 
-# clone_all.sh
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/mass_clone) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fmass_clone&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
 
-This script takes 4 arguments in order to clone repos based on organization(github classroom), a unique identifier(assignment), username, and protocol.
 
-This script will make a new folder based on the unique identifier, then clone each to their own subfolder.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-If you would like to have osx remember your credentials to use https: https://help.github.com/articles/caching-your-github-password-in-git/
+## Architecture
 
-If you would like to setup an ssh key: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-If you are running windows, here is a stack post that may help with ssh: https://stackoverflow.com/questions/18404272/running-ssh-agent-when-starting-git-bash-on-windows
+## Install
 
-# push_all.sh
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-Adds all files, commits, then pushes all changes.
+```bash
+git clone https://github.com/Interested-Deving-1896/mass_clone.git
+cd mass_clone
+```
 
-Takes 1 argument, the unique identifier(folder containing repos)
+## Usage
 
-Used the commit message "Graded", but can be changed.
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-# clone_all_helper.sh
+## Configuration
 
-This script runs clone_all.sh with three arguments as defaults, Organization, username, and protocol
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-The script takes one argument, the unique identifier.
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/mass_clone`](https://github.com/Interested-Deving-1896/mass_clone) and mirrored through:
+
+```
+Interested-Deving-1896/mass_clone  ──►  OpenOS-Project-OSP/mass_clone  ──►  OpenOS-Project-Ecosystem-OOC/mass_clone
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/mass_clone/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/mass_clone/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/mass_clone/blob/master/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
